@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO VIN NESIA - Tool SEO Gratis untuk Optimasi Digital Anda</title>
+    <meta name="description" content="SEO VIN NESIA menyediakan tool SEO gratis dan esensial seperti Meta Tag Generator, OG Tag Generator, Twitter Card, Canonical URL, Noindex/Nofollow, dan Favicon Generator untuk membantu Anda mengoptimalkan kehadiran digital.">
+    <meta name="keywords" content="SEO VIN NESIA, tool SEO gratis, Meta Tag Generator, OG Tag Generator, Twitter Card Generator, Canonical URL, Noindex Nofollow, Favicon Generator, optimasi SEO, website, programmer, pengembang web, Indonesia">
+    <link rel="canonical" href="https://seo.vinnesia.my.id/">
+
+    <!-- Open Graph / Facebook / LinkedIn Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seo.vinnesia.my.id/">
+    <meta property="og:title" content="SEO VIN NESIA - Tool SEO Gratis untuk Optimasi Digital Anda">
+    <meta property="og:description" content="SEO VIN NESIA menyediakan tool SEO gratis dan esensial seperti Meta Tag Generator, OG Tag Generator, Twitter Card, Canonical URL, Noindex/Nofollow, dan Favicon Generator untuk membantu Anda mengoptimalkan kehadiran digital.">
+    <meta property="og:image" content="https://placehold.co/1200x630/1a0f2a/ffffff?text=SEO+VIN+NESIA">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://seo.vinnesia.my.id/">
+    <meta property="twitter:title" content="SEO VIN NESIA - Tool SEO Gratis untuk Optimasi Digital Anda">
+    <meta property="twitter:description" content="SEO VIN NESIA menyediakan tool SEO gratis dan esensial seperti Meta Tag Generator, OG Tag Generator, Twitter Card, Canonical URL, Noindex/Nofollow, dan Favicon Generator untuk membantu Anda mengoptimalkan kehadiran digital.">
+    <meta property="twitter:image" content="https://placehold.co/1200x675/1a0f2a/ffffff?text=SEO+VIN+NESIA">
+
+    <!-- Favicon (Inline SVG for simplicity and dark theme compatibility) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50%25' y='50%25' style='dominant-baseline:central;text-anchor:middle;font-family:sans-serif;font-size:80px;'%3E%F0%9F%94%A7%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8KPNLX47L1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8KPNLX47L1');
+    </script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Custom CSS for dark purple theme and font */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a0f2a; /* Very dark purple */
+            color: #e0e0e0; /* Light gray text */
+        }
+
+        .header-bg {
+            background-color: #2a1a3e; /* Slightly lighter dark purple for header */
+        }
+
+        .tool-card {
+            background-color: #2a1a3e; /* Darker background for cards */
+            border: 1px solid #4a2f6a; /* Purple border */
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-primary {
+            background-color: #8b5cf6; /* Purple-500 */
+            color: white;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .btn-primary:hover {
+            background-color: #7c3aed; /* Purple-600 */
+        }
+
+        .footer-bg {
+            background-color: #1a0f2a; /* Same as body background */
+            border-top: 1px solid #4a2f6a; /* Purple border */
+        }
+
+        /* Responsive menu specific styles */
+        .mobile-menu {
+            display: none;
+        }
+
+        .mobile-menu.active {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: #2a1a3e;
+            position: absolute;
+            top: 64px; /* Adjust based on header height */
+            left: 0;
+            z-index: 10;
+            padding: 1rem 0;
+        }
+
+        .mobile-menu a {
+            padding: 0.75rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .mobile-menu a:last-child {
+            border-bottom: none;
+        }
+
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1a0f2a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #8b5cf6;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7c3aed;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="header-bg shadow-lg py-4 px-6 md:px-12 sticky top-0 z-20">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo and Site Name -->
+            <a href="https://www.vinnesia.my.id" class="flex items-center space-x-2 group" target="_blank" rel="noopener noreferrer">
+                <span class="text-purple-400 font-extrabold text-2xl md:text-3xl">VN</span>
+                <span class="text-gray-100 font-bold text-xl md:text-2xl group-hover:text-purple-300 transition-colors duration-200">SEO VIN NESIA</span>
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-100 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex space-x-8">
+                <a href="#" class="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium">Beranda</a>
+                <a href="about.html" class="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium">Tentang Kami</a>
+                <a href="#tools" class="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium">Tools</a>
+                <a href="terms.html" class="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium">Ketentuan Layanan</a>
+                <a href="privacy.html" class="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium">Kebijakan Privasi</a>
+                <a href="contact.html" class="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium">Kontak</a>
+            </nav>
+        </div>
+
+        <!-- Mobile Menu (hidden by default) -->
+        <nav id="mobile-menu" class="mobile-menu md:hidden">
+            <a href="#" class="text-gray-300 hover:text-purple-400">Beranda</a>
+            <a href="about.html" class="text-gray-300 hover:text-purple-400">Tentang Kami</a>
+            <a href="#tools" class="text-gray-300 hover:text-purple-400">Tools</a>
+            <a href="terms.html" class="text-gray-300 hover:text-purple-400">Ketentuan Layanan</a>
+            <a href="privacy.html" class="text-gray-300 hover:text-purple-400">Kebijakan Privasi</a>
+            <a href="contact.html" class="text-gray-300 hover:text-purple-400">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-6 py-8 md:py-12">
+        <!-- Introduction Section -->
+        <section class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-purple-400 mb-6 leading-tight">Selamat Datang di SEO VIN NESIA</h1>
+            <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                SEO VIN NESIA adalah inisiatif untuk menyediakan serangkaian tool **SEO gratis** yang **esensial** bagi para **programmer**, **pengembang web**, **pembuat konten**, dan **pengguna umum** untuk **mengoptimalkan kehadiran digital** mereka. Nama "VIN NESIA" sendiri memiliki filosofi yang mendalam: **"VIN"** melambangkan **"Visual Informasi Nusantara,"** menyoroti komitmen kami untuk menyajikan **informasi visual** yang relevan dan mudah diakses bagi audiens di **Indonesia dan global**. Sementara **"NESIA"** adalah singkatan dari **"Nusantara"** yang menegaskan akar kami di Indonesia, namun dengan aspirasi untuk **melayani komunitas digital di seluruh dunia**.
+            </p>
+            <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mt-4 leading-relaxed">
+                Kami percaya bahwa setiap situs web berhak mendapatkan visibilitas terbaik. Di era digital yang kompetitif ini, **optimasi mesin pencari (SEO)** bukan lagi pilihan, melainkan **keharusan**. Namun, tidak semua orang memiliki akses atau pemahaman mendalam tentang **tool SEO yang kompleks**. SEO VIN NESIA hadir untuk menjembatani kesenjangan ini, menyediakan tool **sederhana**, **intuitif**, dan **efisien** yang dapat digunakan langsung di browser Anda, tanpa perlu instalasi atau konfigurasi yang rumit. Mulai dari **pembuatan meta tag** yang akurat hingga **pengelolaan tag Open Graph** untuk berbagi di media sosial, setiap tool dirancang untuk membantu Anda **meningkatkan peringkat pencarian**, **memperbaiki pengalaman pengguna**, dan pada akhirnya, **memperluas jangkauan online** Anda. Kami berkomitmen untuk terus berinovasi dan menambahkan tool yang relevan, menjadikan SEO VIN NESIA sebagai **mitra terpercaya** Anda dalam perjalanan optimasi digital.
+            </p>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-purple-400 mb-10">Tool SEO Gratis Kami</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Meta Tag Generator Card -->
+                <div class="tool-card p-6 rounded-lg shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-100 mb-3">Meta Tag Generator</h3>
+                        <p class="text-gray-300 mb-4">Tool ini membantu Anda membuat meta tag dasar seperti `title`, `description`, dan `keywords` yang penting untuk SEO dan visibilitas di mesin pencari.</p>
+                    </div>
+                    <a href="tools/metatag.html" class="btn-primary py-2 px-4 rounded-md text-center font-medium self-start">Gunakan Tool</a>
+                </div>
+
+                <!-- OG (Open Graph) Tag Generator Card -->
+                <div class="tool-card p-6 rounded-lg shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-100 mb-3">OG (Open Graph) Tag Generator</h3>
+                        <p class="text-gray-300 mb-4">Hasilkan tag Open Graph yang memungkinkan Anda mengontrol tampilan konten saat dibagikan di platform media sosial seperti Facebook dan LinkedIn.</p>
+                    </div>
+                    <a href="tools/ogtag.html" class="btn-primary py-2 px-4 rounded-md text-center font-medium self-start">Gunakan Tool</a>
+                </div>
+
+                <!-- Twitter Card Tag Generator Card -->
+                <div class="tool-card p-6 rounded-lg shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-100 mb-3">Twitter Card Tag Generator</h3>
+                        <p class="text-gray-300 mb-4">Buat Twitter Card tag untuk mempercantik pratinjau tautan Anda di Twitter, menarik lebih banyak klik, dan meningkatkan engagement.</p>
+                    </div>
+                    <a href="tools/twittercard.html" class="btn-primary py-2 px-4 rounded-md text-center font-medium self-start">Gunakan Tool</a>
+                </div>
+
+                <!-- Canonical URL Tag Generator Card -->
+                <div class="tool-card p-6 rounded-lg shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-100 mb-3">Canonical URL Tag Generator</h3>
+                        <p class="text-gray-300 mb-4">Dapatkan tag URL kanonis untuk mencegah masalah konten duplikat di mata mesin pencari, mempertahankan otoritas SEO situs Anda.</p>
+                    </div>
+                    <a href="tools/canonical.html" class="btn-primary py-2 px-4 rounded-md text-center font-medium self-start">Gunakan Tool</a>
+                </div>
+
+                <!-- Noindex/Nofollow Meta Tag Tool Card -->
+                <div class="tool-card p-6 rounded-lg shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-100 mb-3">Noindex/Nofollow Meta Tag Tool</h3>
+                        <p class="text-gray-300 mb-4">Kendalikan bagaimana mesin pencari mengindeks atau mengikuti tautan pada halaman Anda dengan tool ini, penting untuk privasi atau strategi SEO tertentu.</p>
+                    </div>
+                    <a href="tools/noindexnofollow.html" class="btn-primary py-2 px-4 rounded-md text-center font-medium self-start">Gunakan Tool</a>
+                </div>
+
+                <!-- Favicon Tag Generator Card -->
+                <div class="tool-card p-6 rounded-lg shadow-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-100 mb-3">Favicon Tag Generator</h3>
+                        <p class="text-gray-300 mb-4">Buat kode tag untuk favicon situs Anda, ikon kecil yang muncul di tab browser, meningkatkan branding dan pengalaman pengguna.</p>
+                    </div>
+                    <a href="tools/favicon.html" class="btn-primary py-2 px-4 rounded-md text-center font-medium self-start">Gunakan Tool</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section (Optional, but good for retention) -->
+        <section class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-purple-400 mb-10">Pertanyaan Umum (FAQ)</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-[#2a1a3e] p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-100 mb-2">Q: Apakah tool di SEO VIN NESIA benar-benar gratis?</h3>
+                    <p class="text-gray-300">A: Ya, semua tool yang tersedia di SEO VIN NESIA sepenuhnya gratis untuk digunakan tanpa batasan.</p>
+                </div>
+                <div class="bg-[#2a1a3e] p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-100 mb-2">Q: Apakah saya perlu menginstal sesuatu untuk menggunakan tool ini?</h3>
+                    <p class="text-gray-300">A: Tidak perlu! Semua tool bersifat client-side dan dapat digunakan langsung di browser Anda tanpa instalasi perangkat lunak tambahan.</p>
+                </div>
+                <div class="bg-[#2a1a3e] p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-100 mb-2">Q: Apakah data yang saya masukkan ke dalam tool akan disimpan?</h3>
+                    <p class="text-gray-300">A: Tidak. Karena semua tool bersifat client-side, data yang Anda masukkan tidak dikirim ke server kami dan tidak disimpan.</p>
+                </div>
+                <div class="bg-[#2a1a3e] p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-100 mb-2">Q: Bagaimana cara saya bisa memberikan masukan atau melaporkan bug?</h3>
+                    <p class="text-gray-300">A: Anda bisa menghubungi kami melalui email di <a href="mailto:vin.nesiaa.id@gmail.com" class="text-purple-400 hover:underline">vin.nesiaa.id@gmail.com</a> atau melalui Instagram kami di <a href="https://www.instagram.com/Vin.nesia.id" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline">@Vin.nesia.id</a>. Kami sangat menghargai masukan Anda!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-bg py-8 px-6 md:px-12 text-gray-400 text-sm">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div class="text-center md:text-left">
+                &copy; 2025 SEO VIN NESIA. Hak Cipta Dilindungi Undang-Undang.
+            </div>
+            <nav class="flex flex-wrap justify-center md:justify-end space-x-4 md:space-x-6">
+                <a href="about.html" class="hover:text-purple-400 transition-colors duration-200">Tentang Kami</a>
+                <a href="terms.html" class="hover:text-purple-400 transition-colors duration-200">Ketentuan Layanan</a>
+                <a href="privacy.html" class="hover:text-purple-400 transition-colors duration-200">Kebijakan Privasi</a>
+                <a href="contact.html" class="hover:text-purple-400 transition-colors duration-200">Kontak</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="mailto:vin.nesiaa.id@gmail.com" class="hover:text-purple-400 transition-colors duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-1 10a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h12a2 2 0 012 2v12z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/Vin.nesia.id" target="_blank" rel="noopener noreferrer" class="hover:text-purple-400 transition-colors duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2zm-.2 2A4.8 4.8 0 004 7.8v8.4c0 2.6 2.2 4.8 4.8 4.8h8.4a4.8 4.8 0 004.8-4.8V7.8c0-2.6-2.2-4.8-4.8-4.8H7.6zm9.65 1.5a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('active');
+            });
+
+            // Close mobile menu when a link is clicked (optional, but good UX)
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.remove('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
